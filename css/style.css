@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    list-style-type: none;
+    text-decoration:none;
+}
+
+.container{
+    background-color: rgb(141, 246, 169);
+}
+
+.principal{
+    display: inline-flex;
+    padding: .2rem;
+    align-items: center;
+}
+
+.principal p{
+    padding:.5rem;
+}
+
+
+.ico__redes{
+    width: 5.5rem;
+    padding: .4rem;
+    
+    
+}
+
+.redes{
+    float: right;
+}
+
+
+.redes li{
+    display: inline-flex;
+   
+}
+
+.navbar{
+    display: flex;
+    margin: 1rem;
+}
+
+a:hover{
+    border-radius: 1rem;
+    background-color: #faadad;
+    
+}
+
+.navbar li{
+    display: inline;
+    padding:1rem;
+    color: black;
+}
+
+
+
+.section{
+    text-align: center;
+    width: 80%;
+    align-items: center;
+    
+}
+
+.titulo__section{
+    font-size: 2rem;
+    font-weight:bold;
+    padding: .4rem;
+}
+
+.section1{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+
+}
+.section2{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+.section3{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    
+}
